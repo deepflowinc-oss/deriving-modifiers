@@ -1,0 +1,36 @@
+name:                deriving-modifiers
+version:             0.1.0.0
+license:             AllRightsReserved
+author:              "DeepFlow, Inc."
+maintainer:          "DeepFlow, Inc."
+copyright:           "(c) 2021, DeepFlow, Inc."
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Math
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Some great library and/or tool made by DeepFlow, Inc.
+
+language:           GHC2021
+
+ghc-options:
+  - -Wall
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+  dependencies:
+  - aeson
+  - bifunctors
+  - tagged
+  - text
+  - unordered-containers

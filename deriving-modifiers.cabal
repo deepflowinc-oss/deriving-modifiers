@@ -1,0 +1,38 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           deriving-modifiers
+version:        0.1.0.0
+description:    Some great library and/or tool made by DeepFlow, Inc.
+author:         DeepFlow, Inc.
+maintainer:     DeepFlow, Inc.
+copyright:      (c) 2021, DeepFlow, Inc.
+license:        AllRightsReserved
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+library
+  exposed-modules:
+      Data.Coerce.Structural
+      Data.Convert.Structural
+      Data.Deriving.Wrappers
+      Data.Structural
+  other-modules:
+      Paths_deriving_modifiers
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      aeson
+    , base >=4.7 && <5
+    , bifunctors
+    , tagged
+    , text
+    , unordered-containers
+  default-language: GHC2021
