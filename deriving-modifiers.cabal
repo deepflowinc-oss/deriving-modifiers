@@ -1,21 +1,27 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.37.0.
+-- This file has been generated from package.yaml by hpack version 0.36.0.
 --
 -- see: https://github.com/sol/hpack
 
 name:           deriving-modifiers
 version:        0.1.0.0
 description:    Some great library and/or tool made by DeepFlow, Inc.
+homepage:       https://github.com/deepflowinc-oss/deriving-modifiers#readme
+bug-reports:    https://github.com/deepflowinc-oss/deriving-modifiers/issues
 author:         DeepFlow, Inc.
 maintainer:     DeepFlow, Inc.
 copyright:      (c) 2021, DeepFlow, Inc.
-license:        AllRightsReserved
+license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
     README.md
     ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/deepflowinc-oss/deriving-modifiers
 
 library
   exposed-modules:

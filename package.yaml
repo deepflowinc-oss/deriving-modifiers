@@ -1,9 +1,10 @@
 name:                deriving-modifiers
 version:             0.1.0.0
-license:             AllRightsReserved
+license:             BSD3
 author:              "DeepFlow, Inc."
 maintainer:          "DeepFlow, Inc."
 copyright:           "(c) 2021, DeepFlow, Inc."
+github:              "deepflowinc-oss/deriving-modifiers"
 
 extra-source-files:
 - README.md
